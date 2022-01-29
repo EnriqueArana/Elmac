@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --rojo: #cd3636;
+    --azul:#2D2E83;
+    --plomo:#737373;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.cabecera{
+    background-color: var(--rojo);
+    height: 30rem;
+}
+
+.principal{
+    background-color: var(--azul);
+    height: 45rem;
+}
+
+.pie{
+    background-color: var(--plomo);
+    height: 10rem;
+}
