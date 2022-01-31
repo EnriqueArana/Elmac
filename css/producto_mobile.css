@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --rojo: #cd3636;
+    --azul:#2D2E83;
+    --plomo:#737373;
+    --negro:black;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cabecera, .principal, .principal__mision, .principal__vision, .principal__redes,.principal__direccion, .pie{
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
+}
+
+.cabecera{
+    background-color: var(--negro);
+}
+ 
+.principal{
+    background-color: white;
+    height: 59rem;
+} 
+
+.pie{
+    background-color: var(--plomo);
+}
+
+.principal__mision{
+    background-color: var(--azul);
+
+}
+
+.principal__vision{
+    background-color: var(--rojo);
+    
+}
+
+.principal__redes{
+    background-color: var(--negro);
+}
+.principal__direccion{
+    background-color: pink;
+}

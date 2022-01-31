@@ -1,0 +1,42 @@
+.cuerpo{
+    width: auto;
+    margin: 0 auto;
+}
+
+.cabecera{
+    width: 100%;
+}
+
+.principal{
+    width: 100%;
+    margin: 0% auto;
+    display: flex;
+}
+
+.pie{
+    width: 72%;
+    margin: 0 auto;
+}
+
+.principal__mision{
+    order: 2;
+    height: 70rem;
+}
+
+.principal__vision{
+    order: 3;
+    height: 70rem;
+}
+
+.principal__redes{
+    height: 100%;
+    width: 2rem;
+    order: 1;
+}
+.principal__direccion{
+    height: 100%;
+    width: 2rem;
+    order: 4;
+}
+
+
