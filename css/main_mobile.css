@@ -36,7 +36,12 @@ html{
 } 
 
 .pie{
-    background-color: var(--plomo);
+    height: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
 }
 
 .principal__mision{
