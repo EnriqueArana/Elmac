@@ -32,11 +32,23 @@ html{
  
 .principal{
     background-color: white;
-    height: 59rem;
+    height: 48rem;
 } 
 
 .pie{
-    background-color: var(--plomo);
+    height: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.pie__direccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 1rem;
 }
 
 .principal__mision{
@@ -52,6 +64,24 @@ html{
 .principal__redes{
     background-color: var(--negro);
 }
-.principal__direccion{
-    background-color: pink;
+
+.pie__direccion-titulo{
+    order: 1;
+    font-size: 1.2rem;
+}
+.pie__direccion-textos{
+    display: block;
+    order: 2;
+    font-size: 1rem;
+}
+
+.pie__empresa{
+    margin-top: 4rem;
+}
+
+.pie__direccion-texto1{
+    text-align: left;
+}
+.pie__direccion-texto2{
+    text-align: left;
 }
