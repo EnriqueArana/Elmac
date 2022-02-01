@@ -20,12 +20,12 @@
 
 .principal__mision{
     order: 2;
-    height: 59rem;
+    height: 48rem;
 }
 
 .principal__vision{
     order: 3;
-    height: 59rem;
+    height: 48rem;
 }
 
 .principal__redes{
@@ -39,4 +39,22 @@
     order: 4;
 }
 
+.pie__direccion{
+    padding: 0rem 0rem;
+}
 
+.pie__direccion-titulo{
+    font-size: 1.3rem;
+    margin-top: 5rem;
+    padding-left: 10rem;
+}
+.pie__direccion-textos{
+    font-size: 1.2rem;
+    margin-top: 5rem;
+
+}
+.pie__empresa{
+    font-size: 1.9rem;
+    margin-top: 7rem;
+    justify-content: center;
+}
