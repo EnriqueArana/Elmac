@@ -58,3 +58,28 @@
     margin-top: 7rem;
     justify-content: center;
 }
+.principal__redes{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 18rem; 
+}
+.principal__redes-facebook{
+    padding-bottom: 2rem;
+}
+.principal__redes-gmail{
+    padding-bottom: 2rem;
+}
+.principal__redes-instagram{
+    padding-bottom: 2rem;
+}
+.principal__redes-whatsapp{
+    padding-bottom: 2rem;
+}
+.principal__redes ul::after{
+    content: "_____________________";
+    transform: rotate(-90deg);
+    font-weight: bold;
+    margin-top: 9rem;
+    font-size: 1.6rem;
+    margin-right: 1.8rem;
+}
