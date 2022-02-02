@@ -59,7 +59,7 @@
 }
 .pie__empresa{
     font-size: 1.9rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
     justify-content: center;
 }
 .principal__redes{
@@ -132,7 +132,7 @@
     content: "_____________________";
     transform: rotate(-270deg);
     font-weight: bold;
-    margin-top: 5rem;
+    margin-top: 4rem;
     font-size: 1.6rem;
     text-align: center;
 }
