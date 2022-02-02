@@ -52,13 +52,38 @@ html{
 }
 
 .principal__mision{
-    background-color: var(--azul);
-
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
+.principal__mision-titulo{
+    color:var(--azul);
+    font-size: 2rem;
+    padding-left: 4rem;
+    justify-content: center;
+}
+.principal__mision-texto{
+    text-align: justify;
+    padding-right: 2rem;
+    padding-left: 6rem;
+}
 .principal__vision{
-    background-color: var(--rojo);
-    
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.principal__vision-titulo{
+    color:var(--rojo);
+    font-size: 2rem;
+    padding-right: 8rem;
+}
+.principal__vision-texto{
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 5rem;
 }
 
 .pie__direccion-titulo{
