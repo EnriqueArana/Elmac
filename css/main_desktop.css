@@ -37,10 +37,14 @@
     height: 100%;
     width: 2rem;
     order: 4;
+    padding-top: 13rem;
 }
 
 .pie__direccion{
     padding: 0rem 0rem;
+    height: 19rem;
+    display: flex;
+    text-align: center;
 }
 
 .pie__direccion-titulo{
@@ -82,4 +86,53 @@
     margin-top: 9rem;
     font-size: 1.6rem;
     margin-right: 1.8rem;
+}
+.principal__direccion .principal__direccion-p1::after{
+    display: inherit;
+    content: "Encuéntranos en:";
+    transform: rotate(-270deg);
+    font-weight: bold;
+    margin-top: 9rem;
+    font-size: 1.4rem;
+    margin-right: 1.8rem;
+    width: inherit;
+}
+.principal__direccion .principal__direccion-p2::after{
+    display: inherit;
+    content: "Av. Vía de";
+    transform: rotate(-270deg);
+    font-weight: bold;
+    margin-top: 9.5rem;
+    font-size: 1.4rem;
+    margin-right: 1.8rem;
+    width: inherit;
+}
+.principal__direccion .principal__direccion-p3::after{
+    display: inherit;
+    content: "Evitamiento Sur";
+    transform: rotate(-270deg);
+    font-weight: bold;
+    margin-top: 5rem;
+    font-size: 1.4rem;
+    margin-right: 1.8rem;
+    width: inherit;
+}
+.principal__direccion .principal__direccion-p4::after{
+    display: inherit;
+    content: "1960";
+    transform: rotate(-270deg);
+    font-weight: bold;
+    margin-top: 9rem;
+    font-size: 1.4rem;
+    margin-right: 1.8rem;
+    width: inherit;
+}
+.principal__direccion .principal__direccion-p5::after{
+    display: inherit;
+    content: "_____________________";
+    transform: rotate(-270deg);
+    font-weight: bold;
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    text-align: center;
 }
