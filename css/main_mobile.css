@@ -28,7 +28,10 @@ html{
 
 .cabecera{
     background-color: var(--negro);
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
 }
  
 .principal{
@@ -70,6 +73,15 @@ html{
 .cabecera__titulo{
     color:white;
     font-size: 2rem;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    float: right;
 }
 
 
