@@ -106,10 +106,6 @@ html{
 .pie__direccion-texto2{
     text-align: left;
 }
-.principal__direccion{
-    height: 2rem;
-}
-
 /* Redes sociales */
 .principal__redes{
     list-style: none;

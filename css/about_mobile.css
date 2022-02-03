@@ -20,7 +20,7 @@ html{
     flex-wrap: wrap;
 }
 
-.cabecera, .principal, .principal__mision, .principal__vision, .principal__redes,.principal__direccion, .pie{
+.cabecera, .principal, .principal__info, .principal__redes, .pie{
     width: 100%;
     min-width: 15rem;
     height: 15rem;
@@ -32,7 +32,9 @@ html{
  
 .principal{
     background-color: white;
-    height: 48rem;
+    height: 55rem;
+    display: flex;
+    flex-wrap: wrap;
 } 
 
 .pie{
@@ -51,19 +53,74 @@ html{
     font-size: 1rem;
 }
 
-.principal__mision{
+/* Información Principal */
+.principal__info{
+    height: 50rem;
+    padding: 2rem 2rem 0 2rem;
+    text-align: center;
+}
+
+.principal__info-texto{
+    text-align: justify;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+.principal__info-boton1{
+    height: 19rem;
+}
+.principal__info-boton1 button{
     background-color: var(--azul);
+    color: white;
+    height: 17rem;
+    width: 14rem;
+    border-radius: 2rem;
+}
+.principal__info-boton1 button img{
+    filter: opacity(0.155) drop-shadow(0 0 0 white); 
 
 }
-
-.principal__vision{
+.principal__info-boton1 button p{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-family: Verdana, sans-serif;
+}
+.principal__info-boton2{
+    height: 12rem;
+}
+.principal__info-boton2 button{
     background-color: var(--rojo);
-    
+    color: white;
+    height: 17rem;
+    width: 14rem;
+    border-radius: 2rem;
+}
+.principal__info-boton2 button p{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-family: Verdana, sans-serif;
+}
+.principal__info-boton2 button img{
+    filter: opacity(0.155) drop-shadow(0 0 0 white); 
 }
 
+/* Redes Sociales */
 .principal__redes{
-    background-color: var(--negro);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    justify-content: space-evenly;
+    margin-top: 1rem;
 }
+.principal__redes-gmail img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.principal__redes-instagram img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
 
 .pie__direccion-titulo{
     order: 1;
