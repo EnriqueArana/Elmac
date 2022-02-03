@@ -45,17 +45,15 @@
     height: 19rem;
     display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .pie__direccion-titulo{
     font-size: 1.3rem;
-    margin-top: 5rem;
-    padding-left: 10rem;
 }
 .pie__direccion-textos{
     font-size: 1.2rem;
-    margin-top: 5rem;
-
 }
 .pie__empresa{
     font-size: 1.9rem;
@@ -135,4 +133,27 @@
     margin-top: 4rem;
     font-size: 1.6rem;
     text-align: center;
+}
+.principal__mision{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 49rem;
+    width: 100%;
+}
+
+.principal__vision{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 49rem;
+    width: 100%;
+}
+.principal__vision-titulo{
+    order: 1;
+
+}
+.principal__vision-texto{
+    order: 2;
+    min-height: 2rem;
 }
