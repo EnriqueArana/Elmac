@@ -28,6 +28,7 @@ html{
 
 .cabecera{
     background-color: var(--negro);
+    display: flexbox;
 }
  
 .principal{
@@ -60,3 +61,15 @@ html{
 .principal__direccion{
     background-color: pink;
 }
+
+.cabecera__logo{
+    height: 7rem;
+    width: 7rem;
+}
+
+.cabecera__titulo{
+    color:white;
+    font-size: 2rem;
+}
+
+
