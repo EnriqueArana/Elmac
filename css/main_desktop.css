@@ -39,4 +39,69 @@
     order: 4;
 }
 
+.cabecera__logo{
+    height: 7rem;
+    width: 7rem;
+    margin-left: 5rem;
+}
+
+.enlace{
+    position: absolute;
+    padding: 1rem 1rem;
+}
+
+.cabecera__titulo{
+    color:white;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem 1rem;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    text-align: right;
+    position: inherit;
+    height: inherit;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 7rem;
+    margin: 0 0.5rem;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li a:hover{
+    background: #737373;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 3rem;
+    color: white;
+    float: right;
+    margin-top: 1rem;
+    line-height: 3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
 
