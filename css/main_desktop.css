@@ -76,12 +76,13 @@ nav ul{
     position: inherit;
     height: inherit;
     float: right;
+    background: transparent;
 }
 
 nav ul li{
     display: inline-block;
     line-height: 5rem;
-    margin: 0 3rem;
+    margin: 0 4rem;
     text-align: center;
 }
 
@@ -89,6 +90,8 @@ nav ul li a{
     font-size: 1.8rem;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem 1rem;
+    border-radius: 0.3rem;
 }
 
 nav ul li a::after{
@@ -97,6 +100,7 @@ nav ul li a::after{
 
 li a:hover{
     background: #737373 ;
+    color: black;
 }
 
 .checkbtn{
