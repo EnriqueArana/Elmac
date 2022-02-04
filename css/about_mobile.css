@@ -55,7 +55,7 @@ html{
 
 /* Información Principal */
 .principal__info{
-    height: 50rem;
+    height: 12rem;
     padding: 2rem 2rem 0 2rem;
     text-align: center;
 }
@@ -65,41 +65,50 @@ html{
     font-size: 1.7rem;
     margin-bottom: 2rem;
 }
-.principal__info-boton1{
+.principal__botones{
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 0 0 19rem; */
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+.principal__botones-boton1{
     height: 19rem;
 }
-.principal__info-boton1 button{
+.principal__botones-boton1 button{
     background-color: var(--azul);
     color: white;
     height: 17rem;
     width: 14rem;
     border-radius: 2rem;
 }
-.principal__info-boton1 button img{
+.principal__botones-boton1 button img{
     filter: opacity(0.155) drop-shadow(0 0 0 white); 
 
 }
-.principal__info-boton1 button p{
+.principal__botones-boton1 button p{
     padding-bottom: 2rem;
     font-size: 2rem;
     font-family: Verdana, sans-serif;
 }
-.principal__info-boton2{
+.principal__botones-boton2{
     height: 12rem;
 }
-.principal__info-boton2 button{
+.principal__botones-boton2 button{
     background-color: var(--rojo);
     color: white;
     height: 17rem;
     width: 14rem;
     border-radius: 2rem;
 }
-.principal__info-boton2 button p{
+.principal__botones-boton2 button p{
     padding-bottom: 2rem;
     font-size: 2rem;
     font-family: Verdana, sans-serif;
 }
-.principal__info-boton2 button img{
+.principal__botones-boton2 button img{
     filter: opacity(0.155) drop-shadow(0 0 0 white); 
 }
 
