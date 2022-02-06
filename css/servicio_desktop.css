@@ -1,6 +1,6 @@
 .cuerpo{
-    width: auto;
     margin: 0 auto;
+    width: auto;
 }
 
 .cabecera{
@@ -8,31 +8,25 @@
 }
 
 .principal{
-    width: 100%;
     margin: 0% auto;
     display: flex;
+    flex-direction: row;
 }
 
 .pie{
     width: 72%;
     margin: 0 auto;
 }
-
-.principal__redes{
-    height: 100%;
-    width: 2rem;
-    order: 1;
-}
 .principal__direccion{
-    height: 100%;
-    width: 2rem;
-    order: 4;
-    padding-top: 13rem;
+    height: 40vh;
+    width: 1%;
+    order: 3;
+    margin-top: 13rem;
 }
 
 .pie__direccion{
     padding-top: 5rem;
-    height: 19rem;
+    height: 20vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -52,6 +46,9 @@
 }
 /* Redes Sociales */
 .principal__redes{
+    height: 40vh;
+    width: 1%;
+    order: 1;
     flex-direction: column;
     text-align: center;
     margin-top: 18rem; 
@@ -127,5 +124,6 @@
 }
 /* Servicios */
 .principal__servicios{
+    width: 60%;
     order: 2;
 }
