@@ -1,10 +1,34 @@
 .pie__direccion-titulo{
     font-size: 1.5rem;
     padding-right: 10rem;
+    padding-top: 2rem;
 }
 .pie__direccion-textos{
     font-size: 1.4rem;
+    padding-top: 2rem;
 }
 .pie__empresa{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
+    padding-top: 3rem;
+}
+
+.principal__redes{
+    margin-top: 1.5rem;
+}
+
+.principal__redes-gmail img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+.principal__redes-instagram img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+.principal__redes-facebook img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+.principal__redes-whatsapp img{
+    height: 2.9rem;
+    width: 2.9rem;
 }
