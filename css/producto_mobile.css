@@ -20,7 +20,7 @@ html{
     flex-wrap: wrap;
 }
 
-.cabecera, .principal, .principal__mision, .principal__vision, .principal__redes,.principal__direccion, .pie{
+.cabecera, .principal, .principal__productos, .principal__redes,.principal__direccion, .pie{
     width: 100%;
     min-width: 15rem;
     height: 15rem;
@@ -32,7 +32,7 @@ html{
  
 .principal{
     background-color: white;
-    height: 48rem;
+    height: 35rem;
 } 
 
 .pie{
@@ -50,21 +50,6 @@ html{
     justify-content: space-evenly;
     font-size: 1rem;
 }
-
-.principal__mision{
-    background-color: var(--azul);
-
-}
-
-.principal__vision{
-    background-color: var(--rojo);
-    
-}
-
-.principal__redes{
-    background-color: var(--negro);
-}
-
 .pie__direccion-titulo{
     order: 1;
     font-size: 1.2rem;
@@ -85,3 +70,21 @@ html{
 .pie__direccion-texto2{
     text-align: left;
 }
+/* Redes sociales */
+.principal__redes{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.principal__redes-gmail img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.principal__redes-instagram img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+/* Productos */

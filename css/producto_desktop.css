@@ -18,16 +18,6 @@
     margin: 0 auto;
 }
 
-.principal__mision{
-    order: 2;
-    height: 48rem;
-}
-
-.principal__vision{
-    order: 3;
-    height: 48rem;
-}
-
 .principal__redes{
     height: 100%;
     width: 2rem;
@@ -37,24 +27,105 @@
     height: 100%;
     width: 2rem;
     order: 4;
+    padding-top: 13rem;
 }
 
 .pie__direccion{
-    padding: 0rem 0rem;
+    padding-top: 5rem;
+    height: 19rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .pie__direccion-titulo{
     font-size: 1.3rem;
-    margin-top: 5rem;
-    padding-left: 10rem;
 }
 .pie__direccion-textos{
     font-size: 1.2rem;
-    margin-top: 5rem;
-
 }
 .pie__empresa{
     font-size: 1.9rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
     justify-content: center;
+}
+/* Redes Sociales */
+.principal__redes{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 18rem; 
+}
+.principal__redes-facebook{
+    padding-bottom: 2rem;
+}
+.principal__redes-gmail{
+    padding-bottom: 2rem;
+}
+.principal__redes-instagram{
+    padding-bottom: 2rem;
+}
+.principal__redes-whatsapp{
+    padding-bottom: 2rem;
+}
+.principal__redes ul::after{
+    content: "_____________________";
+    transform: rotate(-90deg);
+    font-weight: bold;
+    margin-top: 9rem;
+    font-size: 1.6rem;
+    margin-right: 1.8rem;
+}
+.principal__direccion .principal__direccion-p1::after{
+    display: inherit;
+    content: "Encuéntranos en:";
+    transform: rotate(-270deg);
+    font-weight: bold;
+    margin-top: 9rem;
+    font-size: 1.4rem;
+    margin-right: 1.8rem;
+    width: inherit;
+}
+.principal__direccion .principal__direccion-p2::after{
+    display: inherit;
+    content: "Av. Vía de";
+    transform: rotate(-270deg);
+    font-weight: bold;
+    margin-top: 9.5rem;
+    font-size: 1.4rem;
+    margin-right: 1.8rem;
+    width: inherit;
+}
+.principal__direccion .principal__direccion-p3::after{
+    display: inherit;
+    content: "Evitamiento Sur";
+    transform: rotate(-270deg);
+    font-weight: bold;
+    margin-top: 5rem;
+    font-size: 1.4rem;
+    margin-right: 1.8rem;
+    width: inherit;
+}
+.principal__direccion .principal__direccion-p4::after{
+    display: inherit;
+    content: "1960";
+    transform: rotate(-270deg);
+    font-weight: bold;
+    margin-top: 9rem;
+    font-size: 1.4rem;
+    margin-right: 1.8rem;
+    width: inherit;
+}
+.principal__direccion .principal__direccion-p5::after{
+    display: inherit;
+    content: "_____________________";
+    transform: rotate(-270deg);
+    font-weight: bold;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+/* Servicios */
+.principal__productos{
+    order: 2;
 }
