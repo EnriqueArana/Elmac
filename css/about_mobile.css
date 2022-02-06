@@ -85,14 +85,11 @@ html{
     width: 14rem;
     border-radius: 2rem;
 }
-.principal__botones-boton1 button img{
-    filter: opacity(0.155) drop-shadow(0 0 0 white); 
-
-}
 .principal__botones-boton1 button p{
     padding-bottom: 2rem;
     font-size: 2rem;
-    font-family: Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .principal__botones-boton2{
     height: 12rem;
@@ -107,10 +104,8 @@ html{
 .principal__botones-boton2 button p{
     padding-bottom: 2rem;
     font-size: 2rem;
-    font-family: Verdana, sans-serif;
-}
-.principal__botones-boton2 button img{
-    filter: opacity(0.155) drop-shadow(0 0 0 white); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 /* Redes Sociales */

@@ -25,9 +25,18 @@
     order: 2;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.principal__info-titulo{
+    padding: 32rem 0 0 0;
+    font-size: 3rem;
+}
+.principal__info-titulo::after{
+    content: "¿Quiénes Somos?";
 }
 .principal__info-texto{
-    padding: 19rem 1rem 0 0;
+    padding: 2rem 0 0 0;
 }
 /* Botones */
 .principal__botones{
@@ -44,11 +53,34 @@
     padding: 0 0;
     width: 50%;
     padding-top: 3rem;
+    height: 22rem;
 }
+.principal__botones-boton1 button{
+    height: 30rem;
+    border-radius: 0;
+}
+.principal__botones-boton1 button p{ 
+    padding: 2rem 0 0 0;
+}
+.principal__botones-boton1 button img{ 
+    padding: 7rem 0 9rem 0;
+}
+
 .principal__botones-boton2{
     padding: 0 0;
     width: 50%;
     padding-top: 3rem;
+    height: 22rem;
+}
+.principal__botones-boton2 button{
+    height: 30rem;
+    border-radius: 0;
+}
+.principal__botones-boton2 button p{ 
+    padding: 2rem 0 0 0;
+}
+.principal__botones-boton2 button img{ 
+    padding: 7rem 0 9rem 0;
 }
 /* Redes Sociales */
 .principal__redes{
@@ -119,7 +151,7 @@
 }
 .principal__direccion .principal__direccion-p5::after{
     display: inherit;
-    content: "____________________________";
+    content: "_______________________";
     transform: rotate(-270deg);
     font-weight: bold;
     margin-top: 4rem;
@@ -132,11 +164,11 @@
     height: 100%;
     width: 10%;
     order: 4;
-    padding-top: 13rem;
+    padding-top: 18rem;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 0;
 }
 
 .pie__direccion{
