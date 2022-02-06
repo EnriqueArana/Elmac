@@ -98,7 +98,7 @@ nav ul li a::after{
     display: none;
 }
 
-li a:hover{
+li a.active, a:hover{
     background: #737373 ;
     color: black;
 }

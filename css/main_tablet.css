@@ -84,9 +84,9 @@ nav ul li a::after{
     content: "";
     display: block;
     background: white;
-    width: 30%;
+    width: 40%;
     margin-top: 0.3rem;
-    margin-left: 23rem;
+    margin-left: 25rem;
     height: 0.3rem;
     clip-path: var(--clippy);
     transition: clip-path .3s;
