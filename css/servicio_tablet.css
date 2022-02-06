@@ -11,24 +11,51 @@
     font-size: 1.9rem;
     padding-top: 3rem;
 }
+.principal{
+    height: 50vh;
+}
 
 .principal__redes{
     margin-top: 1.5rem;
 }
 
 .principal__redes-gmail img{
-    height: 2.9rem;
-    width: 2.9rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 .principal__redes-instagram img{
-    height: 2.9rem;
-    width: 2.9rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 .principal__redes-facebook img{
-    height: 2.9rem;
-    width: 2.9rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 .principal__redes-whatsapp img{
-    height: 2.9rem;
-    width: 2.9rem;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+/* Servicios */
+.principal__servicios{
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 40vh;
+}
+.principal__servicio1{
+    order: 1;
+    width: 45%;
+}
+.principal__servicio2{
+    order: 2;
+    width: 45%;
+}
+.principal__servicio3{
+    order: 3;
+    width: 45%;
+}
+.principal__servicio4{
+    order: 4;
+    width: 45%;
 }
