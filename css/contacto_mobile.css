@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+:root{
+    --rojo: #cd3636;
+    --azul:#2D2E83;
+    --plomo:#737373;
+    --negro:black;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cabecera, .principal, .principal__mision, .principal__vision, .principal__redes,.principal__direccion, .pie{
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
+}
+
+.cabecera{
+    background-color: var(--negro);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+ 
+.principal{
+    background-color: white;
+    height: 59rem;
+} 
+
+.pie{
+    height: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.principal__mision{
+    background-color: var(--azul);
+
+}
+
+.principal__vision{
+    background-color: var(--rojo);
+    
+}
+
+.principal__redes{
+    background-color: var(--negro);
+}
+.principal__direccion{
+    background-color: pink;
+}
+
+.checkbtn{
+    font-size: 3rem;
+    color: white;
+    float: right;
+    margin-top: 1rem;
+    line-height: 3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    display: block;
+}
+
+#check{
+    display: none;
+}
+
+.cabecera__logo{
+    height: 5.5rem;
+    width: 5.5rem;
+    margin-left: 2rem;
+}
+
+.enlace{
+    position: absolute;
+    padding: 1rem 1rem;
+}
+
+.cabecera__titulo{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem 1rem;
+}
+
+.cabecera__redes img{
+    padding: 1rem 2rem;
+}
+
+.cabecera__horario-atencion{
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabecera__horario-dias{
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    top: 15rem;
+    left: 100%;
+    text-align: center;
+    transition: all .5s;
+}
+
+nav ul li{
+    display: block;
+    margin: 3.5rem 0;
+    line-height: 3rem;
+}
+
+nav ul li a{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+nav ul li a::after{
+    content: "";
+    display: block;
+    background: white;
+    width: 35%;
+    margin-top: 0.3rem;
+    margin-left: 16rem;
+    height: 0.3rem;
+    clip-path: var(--clippy);
+    transition: clip-path .3s;
+}
+
+li a:hover{
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#check:checked ~ ul{
+    left: 0;
+}

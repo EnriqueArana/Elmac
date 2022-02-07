@@ -28,7 +28,9 @@ html{
 }
 
 .cabecera{
-    background-color: var(--negro);
+    background-image: url(https://imageshack.com/i/poaxZsECj) ;
+    opacity: 0.9;
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
