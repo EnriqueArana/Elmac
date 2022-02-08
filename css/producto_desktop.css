@@ -11,6 +11,7 @@
     width: 100%;
     margin: 0% auto;
     display: flex;
+    height: 35vh;
 }
 
 .pie{
@@ -32,7 +33,7 @@
 
 .pie__direccion{
     padding-top: 5rem;
-    height: 19rem;
+    height: 33vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -125,7 +126,85 @@
     font-size: 1.6rem;
     text-align: center;
 }
-/* Servicios */
-.principal__productos{
+/* Productos */
+.principal__info{
     order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+}
+.principal__productos{
+    width: 60%;
+    order: 1;
+}
+.principal__productos h1{
+    font-size: 3rem;
+}
+
+/* Toberas */
+.principal__tobera{
+    width: 32%;
+    text-align: center;
+}
+.principal__tobera img{
+    height: 8rem;
+}
+/* Filtros */
+.principal__filtro{
+    width: 32%;
+    text-align: center;
+}
+.principal__filtro img{
+    height: 8rem;
+}
+/* Válvulas */
+.principal__valvula{
+    width: 32%;
+    text-align: center;
+}
+.principal__valvula img{
+    height: 8rem;
+}
+/* Cabezales */
+.principal__cabezal{
+    width: 50%;
+    text-align: center;
+}
+.principal__cabezal img{
+    height: 7rem;
+    padding-top: 1rem;
+}
+/* Bombas de Transferencia */
+.principal__transferencia{
+    width: 50%;
+    text-align: center;
+}
+.principal__transferencia img{
+    height: 7rem;
+    padding-top: 1rem;
+}
+/* Marcas */
+.principal__marcas{
+    order: 2;
+    width: 35%;
+    height: 25vh;
+    margin: 7rem 1rem 1rem 1rem;
+    flex-wrap: wrap;
+}
+.principal__bosch{
+    width: 50%;
+    margin: 0 auto;
+}
+.principal__zexel{
+    width: 50%;
+    margin: 0 auto;
+}
+.principal__denso{
+    width: 50%;
+    margin: 0 auto;
+}
+.principal__delphi{
+    width: 50%;
+    margin: 0 auto;
 }
