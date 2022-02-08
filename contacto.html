@@ -19,7 +19,37 @@
         </header>
         <main class="principal">
             <section class="principal__contacto">
-                
+                <form action="" class="principal__formulario">
+                    <label for="nombre">
+                        <input type="text" class="nombre" name="nombre" autocomplete="name" placeholder="Escribe tu nombre" required>
+                    </label>
+                    <label for="ciudad">
+                        <input list="ciudades" placeholder="Tu ciudad">
+                        <datalist id="ciudades">
+                            <option value="Cajamarca"></option>
+                            <option value="Trujillo"></option>
+                            <option value="Lima"></option>
+                            <option value="Chiclayo"></option>
+                        </datalist>
+                    </label>
+                    <label for="ayuda">
+                        <textarea name="ayuda" id="ayuda" cols="25" rows="4" placeholder="¿Cómo Elmac puede ayudarte? ..."></textarea>
+                    </label>
+                    <label for="boton">
+                        <button type="submit">Enviar mensaje</button>
+                    </label>
+                </form>
+            </section>
+            <section class="principal__datos">
+                <article class="principal__datos-direccion">
+                    <h1>Encuéntranos en:</h1>
+                    <p>Av. Vía de Evitamiento Sur #1960</p>
+                    <p>Cajamarca</p>
+                </article>
+                <article class="principal__datos-ref">
+                    <h1>Referencia</h1>
+                    <p>Al frente de la agencia de viajes Emtrafesa</p>
+                </article>
             </section>
             <section class="principal__redes">
                 <ul class="principal__redes">
