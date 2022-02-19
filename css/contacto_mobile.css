@@ -116,11 +116,6 @@ nav ul{
     text-align: center;
     transition: all .5s;
 }
-.pie__direccion-titulo{
-    order: 1;
-    font-size: 1.2rem;
-}
-
 nav ul li{
     display: block;
     margin: 3.5rem 0;
@@ -153,6 +148,30 @@ li a:hover{
 
 #check:checked ~ ul{
     left: 0;
+}
+
+.pie__direccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+.pie__direccion-titulo{
+    order: 1;
+    font-size: 1.2rem;
+}
+.pie__direccion-textos{
+    display: block;
+    order: 2;
+    font-size: 1rem;
+}
+
+.pie__empresa{
+    margin-top: 4rem;
+}
+
+.pie__direccion-texto1{
+    text-align: left;
 }
 .pie__direccion-texto2{
     text-align: left;
