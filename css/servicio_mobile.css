@@ -96,11 +96,6 @@ html{
 .cabecera__redes img{
     padding: 1rem 2rem;
 }
-.pie__direccion-titulo{
-    order: 1;
-    font-size: 1.2rem;
-}
-
 .cabecera__horario-atencion{
     font-size: 1.5rem;
     color: white;
@@ -165,6 +160,30 @@ li a:hover{
 
 #check:checked ~ ul{
     left: 0;
+}
+
+.pie__direccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+.pie__direccion-titulo{
+    order: 1;
+    font-size: 1.2rem;
+}
+.pie__direccion-textos{
+    display: block;
+    order: 2;
+    font-size: 1rem;
+}
+
+.pie__empresa{
+    margin-top: 2rem;
+}
+
+.pie__direccion-texto1{
+    text-align: left;
 }
 .pie__direccion-texto2{
     text-align: left;
