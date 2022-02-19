@@ -99,3 +99,77 @@ li a:hover{
 #check:checked ~ ul{
     left: 0;
 }
+.pie__empresa{
+    font-size: 1.7rem;
+}
+.principal{
+    height: 49rem;
+}
+/* Redes Sociales */
+.principal__redes{
+    margin-top: 1.5rem;
+}
+
+.principal__redes-gmail img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+.principal__redes-instagram img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+.principal__redes-facebook img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+.principal__redes-whatsapp img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+/* Texto Principal */
+.principal__info-texto{
+    font-size: 2rem;
+    padding:0 2rem 0 2rem;
+}
+
+/* Botones */
+.principal__botones{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 25rem;
+}
+.principal__botones-boton1{
+    order: 1;
+    width: 50%;
+    padding: 0 0 0 9rem;
+    height: 30rem;
+}
+.principal__botones-boton2{
+    order: 2;
+    width: 50%;
+    height: 30rem;
+    padding-right: 5rem;
+}
+.principal__botones-boton1 button{
+    border-style: none;
+    height: 20rem;
+    width: 17rem;
+}
+.principal__botones-boton1 button p{
+    font-size: 3rem;
+}
+.principal__botones-boton2 button{
+    border-style: none;
+    height: 20rem;
+    width: 17rem;
+}
+.principal__botones-boton2 button p{
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.principal__botones-boton2 button img{
+    padding-bottom: 5rem;
+}

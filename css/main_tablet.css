@@ -98,4 +98,58 @@ li a:hover{
 
 #check:checked ~ ul{
     left: 0;
+    padding-right: 10rem;
+    padding-top: 2rem;
+}
+.pie__direccion-textos{
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+.pie__empresa{
+    font-size: 1.9rem;
+    padding-top: 3rem;
+}
+
+.principal__redes{
+    margin-top: 1.5rem;
+}
+
+.principal__redes-gmail img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+.principal__redes-instagram img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+.principal__redes-facebook img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+.principal__redes-whatsapp img{
+    height: 2.9rem;
+    width: 2.9rem;
+}
+.principal__mision{
+    padding-top: 2rem;
+}
+.principal__mision-titulo{
+    padding-left: 8rem;
+    font-size: 3rem;
+}
+.principal__mision-texto{
+    padding: 2rem 3rem 0 10.5rem;
+    font-size: 1.5rem;
+}
+.principal__vision{
+    padding-top: 2rem;
+}
+
+.principal__vision-titulo{
+    padding-right: 12rem;
+    font-size: 3rem;
+}
+.principal__vision-texto{
+    padding: 2rem 12rem 0 5rem;
+    font-size: 1.5rem;
 }

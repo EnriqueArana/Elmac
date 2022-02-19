@@ -99,3 +99,71 @@ li a:hover{
 #check:checked ~ ul{
     left: 0;
 }
+.pie__direccion{
+    height: 2vh;
+}
+.pie__direccion-titulo{
+    font-size: 1.5rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+}
+.pie__direccion-textos{
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+.pie__empresa{
+    font-size: 1.9rem;
+    padding-top: 3rem;
+}
+
+.principal__redes{
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+    height: 62%;
+}
+
+.principal__redes-gmail img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.principal__redes-instagram img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.principal__redes-facebook img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.principal__redes-whatsapp img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+/* Information */
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    height: 35vh;
+}
+.principal__direccion{
+    height: 0;
+}
+.principal__contacto{
+    width: 50vw;
+}
+.principal__datos{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+.principal__datos-direccion h1{
+    font-size: 2.6rem;
+}
+.principal__datos-direccion p{
+    font-size: 2rem;
+}
+.principal__datos-ref h1{
+    font-size: 2.6rem;
+}
+.principal__datos-ref p{
+    font-size: 2rem;
+}

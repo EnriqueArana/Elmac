@@ -21,7 +21,7 @@ html{
     flex-wrap: wrap;
 }
 
-.cabecera, .principal, .principal__mision, .principal__vision, .principal__redes,.principal__direccion, .pie{
+.cabecera, .principal, .principal__info, .principal__redes, .pie{
     width: 100%;
     min-width: 15rem;
     height: 15rem;
@@ -39,7 +39,9 @@ html{
  
 .principal{
     background-color: white;
-    height: 59rem;
+    height: 55rem;
+    display: flex;
+    flex-wrap: wrap;
 } 
 
 .pie{
@@ -106,6 +108,79 @@ html{
 nav{
     width: 100%;
 }
+/* Información Principal */
+.principal__info{
+    height: 15rem;
+    padding: 2rem 2rem 0 2rem;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.principal__info-texto{
+    text-align: justify;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+.principal__botones{
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+.principal__botones-boton1{
+    height: 19rem;
+}
+.principal__botones-boton1 button{
+    background-color: var(--azul);
+    color: white;
+    height: 17rem;
+    width: 14rem;
+    border-radius: 2rem;
+}
+.principal__botones-boton1 button p{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.principal__botones-boton2{
+    height: 12rem;
+}
+.principal__botones-boton2 button{
+    background-color: var(--rojo);
+    color: white;
+    height: 17rem;
+    width: 14rem;
+    border-radius: 2rem;
+}
+.principal__botones-boton2 button p{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Redes Sociales */
+.principal__redes{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.principal__redes-gmail img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.principal__redes-instagram img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
 
 nav ul{
     position: fixed;

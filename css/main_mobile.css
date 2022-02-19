@@ -39,7 +39,7 @@ html{
  
 .principal{
     background-color: white;
-    height: 48rem;
+    height: 35rem;
 } 
 
 .pie{
@@ -124,6 +124,40 @@ nav ul{
     text-align: center;
     transition: all .5s;
 }
+.principal__mision{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal__mision-titulo{
+    color:var(--azul);
+    font-size: 2rem;
+    padding-left: 4rem;
+    justify-content: center;
+}
+.principal__mision-texto{
+    text-align: justify;
+    padding-right: 2rem;
+    padding-left: 6rem;
+}
+.principal__vision{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.principal__vision-titulo{
+    color:var(--rojo);
+    font-size: 2rem;
+    padding-right: 8rem;
+}
+.principal__vision-texto{
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
 
 nav ul li{
     display: block;
@@ -158,6 +192,23 @@ li a:hover{
 #check:checked ~ ul{
     left: 0;
 }
-
-
-
+.pie__direccion-texto2{
+    text-align: left;
+}
+/* Redes sociales */
+.principal__redes{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.principal__redes-gmail img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.principal__redes-instagram img{
+    height: 2.4rem;
+    width: 2.4rem;
+}

@@ -21,7 +21,7 @@ html{
     flex-wrap: wrap;
 }
 
-.cabecera, .principal, .principal__mision, .principal__vision, .principal__redes,.principal__direccion, .pie{
+.cabecera, .principal, .principal__contacto, .principal__datos, .principal__redes,.principal__direccion, .pie{
     width: 100%;
     min-width: 15rem;
     height: 15rem;
@@ -37,7 +37,7 @@ html{
  
 .principal{
     background-color: white;
-    height: 59rem;
+    height: 50vh;
 } 
 
 .pie{
@@ -116,6 +116,10 @@ nav ul{
     text-align: center;
     transition: all .5s;
 }
+.pie__direccion-titulo{
+    order: 1;
+    font-size: 1.2rem;
+}
 
 nav ul li{
     display: block;
@@ -149,4 +153,86 @@ li a:hover{
 
 #check:checked ~ ul{
     left: 0;
+}
+.pie__direccion-texto2{
+    text-align: left;
+}
+/* Redes sociales */
+.principal__redes{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    align-items: center;
+}
+.principal__redes-gmail img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.principal__redes-instagram img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+/* Info central */
+.principal__contacto{
+    display: flex;
+    text-align: center;
+    margin: 2rem auto 2rem auto;
+    height: 40%;
+    flex-wrap: wrap;
+}
+.principal__formulario{
+    align-items: center;
+    padding: 0 2.5rem 0 2.5rem;
+    width: 100vw;
+
+}
+.principal__formulario label{
+    text-align: center;
+    flex-direction: column;
+}
+.principal__formulario label input{
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 3rem;
+}
+.principal__formulario textarea{
+    margin-bottom: 1rem;
+    display: inherit;
+    width: 100%;
+}
+.principal__formulario button{
+    width: 100%;
+    background-color: var(--plomo);
+    color: white;
+    font-weight: bold;
+    height: 3rem;
+}
+.principal__datos{
+    display: inherit;
+    height: 35%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-top: 4rem;
+}
+.principal__datos-direccion{
+    margin-bottom: 2rem;
+}
+.principal__datos-direccion h1{
+    font-size: 1.8rem;
+}
+.principal__datos-direccion p{
+    font-size: 1.5rem;
+    color: var(--rojo);
+    font-weight: bold;
+}
+.principal__datos-ref h1{
+    font-size: 1.8rem;
+}
+.principal__datos-ref p{
+    font-size: 1.5rem;
+    color: var(--azul);
+    font-weight: bold;
 }

@@ -4,7 +4,7 @@
     <head lang="es">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Elmac / Contacto</title>
+        <title>Elmac | Contacto</title>
         <link rel="shortcut icon" href="https://imageshack.com/i/pn698ylGp" type="image/x-icon"/>
         <meta name="robots" content="index,follow">
         <meta name="description" content="Laboratorio dedicado a la reparación de bombas de inyección, diagnósticos electrónicos y reparación de inyectores electrónicos diesel y gasolina.">
@@ -48,21 +48,72 @@
             <h1 class="cabecera__titulo">Contáctanos</h1>
         </header>
         <main class="principal">
-            <section class="principal__mision">
-    
+            <section class="principal__contacto">
+                <form action="" class="principal__formulario">
+                    <label for="nombre">
+                        <input type="text" class="nombre" name="nombre" autocomplete="name" placeholder="Escribe tu nombre" required>
+                    </label>
+                    <label for="ciudad">
+                        <input list="ciudades" placeholder="Tu ciudad">
+                        <datalist id="ciudades">
+                            <option value="Cajamarca"></option>
+                            <option value="Trujillo"></option>
+                            <option value="Lima"></option>
+                            <option value="Chiclayo"></option>
+                        </datalist>
+                    </label>
+                    <label for="ayuda">
+                        <textarea name="ayuda" id="ayuda" cols="25" rows="4" placeholder="¿Cómo Elmac puede ayudarte? ..."></textarea>
+                    </label>
+                    <label for="boton">
+                        <button type="submit">Enviar mensaje</button>
+                    </label>
+                </form>
             </section>
-            <section class="principal__vision">
-
+            <section class="principal__datos">
+                <article class="principal__datos-direccion">
+                    <h1>Encuéntranos en:</h1>
+                    <p>Av. Vía de Evitamiento Sur #1960</p>
+                    <p>Cajamarca</p>
+                </article>
+                <article class="principal__datos-ref">
+                    <h1>Referencia:</h1>
+                    <p>Al frente de la agencia de viajes Emtrafesa</p>
+                </article>
             </section>
             <section class="principal__redes">
-
+                <ul class="principal__redes">
+                    <li class="principal__redes-facebook">
+                        <a href="https://www.facebook.com/cielmac2020" target="_blank" title="Facebook | Elmac"><img src="https://img.icons8.com/material-outlined/24/000000/facebook-new.png" alt="Icono de Facebook"/></a>
+                    </li>
+                    <li class="principal__redes-gmail">
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHvnqctcRWFTkfcLQMkmwsfRFPbbtSFKmfzBdMVLDCcCjmGSwpGtWzGcWGddskgCXGGMJGh" target="_blank" title="Gmail | Elmac"><img src="https://img.icons8.com/ios-filled/50/000000/gmail.png" alt="Icono de Gmail"/></a>
+                    </li>
+                    <li class="principal__redes-instagram">
+                        <a href="https://www.instagram.com/cielmac2020/" target="_blank" title="Instagram | Elmac"><img src="https://img.icons8.com/fluency-systems-regular/48/000000/instagram-new--v1.png" alt="Icono de Instagram"/></a>
+                    </li>
+                    <li class="principal__redes-whatsapp">
+                        <a href="https://wa.me/+51976482526" target="_blank" title="WhatsApp | Elmac"><img src="https://img.icons8.com/material-outlined/24/000000/whatsapp--v1.png" alt="Icono de WhatsApp"/></a>
+                    </li>
+                </ul>
             </section>
             <section class="principal__direccion">
-
+                <p class="principal__direccion-p1"></p>
+                <p class="principal__direccion-p2"></p>
+                <p class="principal__direccion-p3"></p>
+                <p class="principal__direccion-p4"></p>
+                <p class="principal__direccion-p5"></p>
             </section>
         </main>
         <footer class="pie">
-            <p>&copy;2022 Elmac</p>
+            <section class="pie__direccion">
+                <h3 class="pie__direccion-titulo">Horario de Atención:</h3>
+                <article class="pie__direccion-textos">
+                    <p class="pie__direccion-texto1">Lunes a Viernes:   8 am - 1 pm   |   3pm - 6pm</p>
+                    <p class="pie__direccion-texto2">Sábado: 8 am - 1 pm</p>
+                </article>
+            </section>
+            <p class="pie__empresa">&copy;2022 Elmac</p>
         </footer>
     </body>
 </html>

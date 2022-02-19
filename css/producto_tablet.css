@@ -98,4 +98,104 @@ li a:hover{
 
 #check:checked ~ ul{
     left: 0;
+    padding-right: 10rem;
+    padding-top: 2rem;
+}
+.pie__direccion-textos{
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+.pie__empresa{
+    font-size: 1.9rem;
+    padding-top: 3rem;
+}
+
+.principal__redes{
+    margin-top: 1.5rem;
+}
+
+.principal__redes-gmail img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.principal__redes-instagram img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.principal__redes-facebook img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.principal__redes-whatsapp img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+/* Productos */
+.principal__productos h1{
+    font-size: 2.5rem;
+}
+.principal__tobera{
+    width: 20%;
+}
+.principal__tobera img{
+    height: 10vh;
+}
+.principal__tobera figcaption{
+    font-size: 2.3rem;
+}
+.principal__filtro{
+    width: 20%;
+}
+.principal__filtro img{
+    height: 10vh;
+}
+.principal__filtro figcaption{
+    font-size: 2.3rem;
+}
+.principal__valvula{
+    width: 20%;
+}
+.principal__valvula img{
+    height: 10vh;
+}
+.principal__valvula figcaption{
+    font-size: 2.3rem;
+}
+.principal__cabezal{
+    width: 20%;
+}
+.principal__cabezal img{
+    height: 10vh;
+}
+.principal__cabezal figcaption{
+    font-size: 2.3rem;
+}
+.principal__transferencia{
+    width: 20%;
+}
+.principal__transferencia img{
+    height: 10vh;
+}
+.principal__transferencia figcaption{
+    font-size: 2rem;
+}
+
+/* Marcas */
+.principal__marcas{
+    align-items: center;
+}
+.principal__marcas h1{
+    font-size: 2.5rem;
+}
+.principal__bosch{
+    width: 25%;
+}
+.principal__zexel{
+    width: 25%;
+}
+.principal__denso{
+    width: 25%;
+}
+.principal__delphi{
+    width: 25%;
 }

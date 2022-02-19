@@ -21,7 +21,7 @@ html{
     flex-wrap: wrap;
 }
 
-.cabecera, .principal, .principal__mision, .principal__vision, .principal__redes,.principal__direccion, .pie{
+.cabecera, .principal, .principal__info, .principal__productos, .principal__marcas, .principal__redes,.principal__direccion, .pie{
     width: 100%;
     min-width: 15rem;
     height: 15rem;
@@ -39,7 +39,7 @@ html{
  
 .principal{
     background-color: white;
-    height: 59rem;
+    height: 50vh;
 } 
 
 .pie{
@@ -117,6 +117,10 @@ nav ul{
     text-align: center;
     transition: all .5s;
 }
+.pie__direccion-titulo{
+    order: 1;
+    font-size: 1.2rem;
+}
 
 nav ul li{
     display: block;
@@ -150,4 +154,135 @@ li a:hover{
 
 #check:checked ~ ul{
     left: 0;
+}
+.pie__direccion-texto2{
+    text-align: left;
+}
+/* Redes sociales */
+.principal__redes{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.principal__redes-gmail img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.principal__redes-instagram img{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+/* Productos */
+.principal__info{
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.principal__productos{
+    height: 70%;
+    padding: 2rem 2rem 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.principal__productos h1{
+    font-size: 2rem;
+    text-align: center;
+    height: 7vh;
+    width: 100%;
+}
+.principal__productos figcaption{
+    font-size: 1.5rem;
+}
+/* Toberas */
+.principal__tobera{
+    width: 32%;
+    text-align: center;
+}
+.principal__tobera figcaption{
+    text-align: center;
+}
+.principal__tobera img{
+    height: 5rem;
+}
+/* Filtros */
+.principal__filtro{
+    width: 32%;
+    text-align: center;
+}
+.principal__filtro figcaption{
+    text-align: center;
+}
+.principal__filtro img{
+    height: 5rem;
+}
+/* Válvulas */
+.principal__valvula{
+    width: 32%;
+    text-align: center;
+}
+.principal__valvula figcaption{
+    text-align: center;
+}
+.principal__valvula img{
+    height: 5rem;
+}
+/* Cabezales */
+.principal__cabezal{
+    width: 50%;
+    text-align: center;
+}
+.principal__cabezal figcaption{
+    text-align: center;
+}
+.principal__cabezal img{
+    height: 5rem;
+}
+/* Bombas de Transferencia */
+.principal__transferencia{
+    width: 50%;
+    text-align: center;
+}
+.principal__transferencia figcaption{
+    text-align: center;
+}
+.principal__transferencia img{
+    height: 5rem;
+}
+
+/* Marcas */
+.principal__marcas{
+    height: 30%;
+    border: 0.5rem solid;
+    margin: 3rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.principal__marcas img{
+    height: 2rem;
+}
+.principal__bosch{
+    width: 50%;
+    text-align: center;
+}
+.principal__zexel{
+    width: 50%;
+    text-align: center;
+}
+.principal__denso{
+    width: 50%;
+    text-align: center;
+}
+.principal__delphi{
+    width: 50%;
+    text-align: center;
+}
+.principal__marcas h1{
+    font-size: 1.7rem;
+    text-align: center;
+    width: 100%;
+    height: 20%;
 }
